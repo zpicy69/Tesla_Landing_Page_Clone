@@ -146,3 +146,44 @@ aside button.close{
     display: block;
     background-color: rgba(0,0,0,0.35);
 }
+
+/* TABLETS AND ABOVE */
+@media (min-width: 768px) {
+    section .buttons {
+        max-width: 640px;
+        margin: 0 auto;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 20px;
+    }
+}
+
+/* DESKTOP AND ABOVE */
+@media (min-width: 1200px) {
+    .desktop {
+        display: initial;
+    }
+}
+
+/* STYLES SPECIFIC TO MOBILE */
+@media (max-width: 767px) {
+    header {
+        /* Adjust header for mobile layout if needed */
+    }
+
+    a.logo {
+        /* Adjust logo size for mobile if needed */
+    }
+
+    section h1 {
+        font-size: 2rem; /* Adjust font size for mobile */
+    }
+
+    aside {
+        right: -100%; /* Hide it by default */
+        width: 100%;  /* Take full width for mobile */
+    }
+
+    section .buttons {
+        margin: 0 20px; /* Less margin for mobile */
+    }
+}
