@@ -50,3 +50,4 @@ Q: How can I change the threshold for visibility?
 A: Adjust the threshold value in the options object inside scroll.js. A value of 1 means 100% of the item must be in view, 0.5 is 50%, and so on.
 
 
+![Alt text](image.png)
